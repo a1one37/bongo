@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap');
+body{
+    margin: 0 auto;
+    background: url(../images/letters_old_antique_handwriting_font_key_pine_cone_vintage-747126.jpg);
+    width: 1000px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    
+}
+ol{
+    position: absolute;
+    top: 24%;
+    left: 12%;
+    
+    
+}
+.container{
+    width: 90%;
+    position: relative;
+    
+    font-weight: 700;
+    font-family: 'Bellota';
+    font-size: 250%;
+    
+}
+.nametag_rules{
+    text-transform: uppercase;
+    position: absolute;
+    top: 12%;
+    left: 34%;
+}
+.li{
+    margin-top: 30px;
+}
+.li:first-child{
+    margin-top: 0;
+}
+.li:last-child{
+    list-style:none;
+}
+#img1{
+
+    
+    border: none;
+    top: 10%;
+    left: 110%;
+    position: absolute;
+    height: 130px;
+    width: 300px;
+    
+}

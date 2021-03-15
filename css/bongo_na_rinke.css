@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap');
+body{
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(../images/bg.jpg);
+    background-size: 1709px 1000px;
+    width: 1000px;
+}
+img{
+    height: 935px;
+    width: 729px;
+    position: relative;
+}
+.container{
+    width: 90%;
+    position: relative;
+    font-weight: 700;
+    font-size: 150%;
+    font-family: 'Bellota';
+    
+    
+}
+.text{
+    position: absolute;
+    top: 20%;
+    right: 25%;
+    width: 450px;
+    
+}
+.spisok_iz_knopok{
+    position: absolute;
+    margin-top: -100%;
+    margin-left: 100%;
+    list-style: none;
+    
+
+
+}
+
+.btn_napravo{
+    background: url(../images/btn_idet_napravo.png);
+    position: relative;
+    height: 130px;
+    width: 300px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    border: none;
+    
+}
+.btn_nalevo{
+background: url(../images/btn_idet_nalevo.png);
+    position: relative;
+    height: 130px;
+    width: 300px;
+    
+    border: none;
+}
+.btn_vpered{
+background: url(../images/btn_idet_vpered.png);
+    position: relative;
+    height: 130px;
+    width: 300px;
+    margin-bottom: 60px;
+    border: none;
+}
+
+.btn_napravo:hover{
+background-image: url(../images/btn_idet_napravo_hover.png);
+
+}
+.btn_nalevo:hover{
+background-image: url(../images/btn_idet_nalevo_hover.png);
+}
+.btn_vpered:hover{
+background-image: url(../images/btn_idet_vpered_hover.png);
+}
+
+.btn_napravo:active, 
+.btn_napravo:focus {
+    outline: none
+}
+
+.btn_nalevo:active, 
+.btn_nalevo:focus {
+    outline: none
+}
+.btn_vpered:active, 
+.btn_vpered:focus {
+    outline: none
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap');
+body{
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(../images/bg.jpg);
+    background-size: 1709px 1000px;
+    width: 1000px;
+}
+img{
+    height: 935px;
+    width: 729px;
+    position: relative;
+}
+.container{
+    width: 90%;
+    position: relative;
+    font-weight: 700;
+    font-size: 150%;
+    font-family: 'Bellota';
+    
+    
+}
+.text{
+    position: absolute;
+    top: 20%;
+    right: 26%;
+    width: 450px;
+}
+.spisok_iz_knopok{
+    position: absolute;
+    margin-top: -100%;
+    margin-left: 100%;
+    list-style: none;
+}
+.da{
+    background: url(../images/yes1.png);
+    position: relative;
+    height: 130px;
+    width: 300px;
+    margin-bottom: 60px;
+    border: none;
+}
+.net{
+    background: url(../images/no1.png);
+    position: relative;
+    height: 130px;
+    width: 300px;
+    margin-bottom: 60px;
+    border: none;
+}
+
+
+    .da:hover{
+    background-image: url(../images/yes2.png);
+    }
+    .net:hover{
+        background-image: url(../images/no2.png);
+        }
+    
+    .da:active, 
+    .da:focus {
+        outline: none
+    }
+    
+    .net:active, 
+    .net:focus {
+        outline: none
+    }
+    
+    .gbln{
+        height: 658px;
+        width: 481px;
+        position: absolute;
+        margin-top: 11%;
+        margin-left: -131%;
+    
+    }

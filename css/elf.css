@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap');
+body{
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(../images/bg.jpg);
+    background-size: 1709px 1000px;
+    width: 1000px;
+}
+img{
+    height: 1000px;
+    width: 729px;
+    position: relative;
+}
+.container{
+    width: 90%;
+    position: relative;
+    font-weight: 700;
+    font-size: 150%;
+    font-family: 'Bellota';
+    
+    
+}
+.text{
+    position: absolute;
+    top: 15%;
+    right: 26%;
+    width: 450px;
+}
+.spisok_iz_knopok{
+    position: absolute;
+    margin-top: -100%;
+    margin-left: 100%;
+    list-style: none;
+}
+.btn_next{
+    position: absolute;
+    border: none;
+    background: url(../images/btn_next.png);
+    height: 130px;
+    width: 300px;
+    top: 63%;
+    left: 104%
+
+}
+
+
+
+.btn_next:hover{
+    background-image: url(../images/btn_next_hover.png);
+    }
+    
+    
+    
+    
+    .btn_next:active, 
+    .btn_next:focus {
+        outline: none
+    }
+    
+.back{
+    
+    position: absolute;
+    border: none;
+    background: url(../images/button_back_to_menu.png);
+    height: 130px;
+    width: 300px;
+    top: 40%;
+    left: 104%;
+    
+    
+    
+}
+.back:hover{
+    background: url(../images/button_back_to_menu_hover.png);
+}
+
+.back:active, 
+.back:focus {
+    outline: none;
+}
+.gbln{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: -130%;
+}

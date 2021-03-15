@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap');
+body{
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(../images/bg.jpg);
+    background-size: 1709px 1000px;
+    width: 1000px;
+}
+img{
+    height: 935px;
+    width: 729px;
+    position: relative;
+}
+.container{
+    width: 90%;
+    position: relative;
+    font-weight: 700;
+    font-size: 150%;
+    font-family: 'Bellota';
+    
+    
+}
+.text{
+    position: absolute;
+    top: 15%;
+    right: 26%;
+    width: 450px;
+}
+.spisok_iz_knopok{
+    position: absolute;
+    margin-top: -100%;
+    margin-left: 100%;
+    list-style: none;
+}
+
+.chelovek{
+    background: url(../images/chelovek1.png);
+    position: relative;
+    height: 130px;
+    width: 300px;
+    margin-bottom: 60px;
+    border: none;
+}
+.goblin{
+    background: url(../images/goblin2.png);
+    position: relative;
+    height: 130px;
+    width: 300px;
+    margin-bottom: 60px;
+    border: none;
+}
+.elf{
+    background: url(../images/elf1.png);
+    position: relative;
+    height: 130px;
+    width: 300px;
+    margin-bottom: 60px;
+    border: none;
+}
+.gnom{
+    background: url(../images/gnom2.png);
+    position: relative;
+    height: 130px;
+    width: 300px;
+    margin-bottom: 60px;
+    border: none;
+}
+.chelovek:hover{
+    background-image: url(../images/chelovek2.png);
+    
+    }
+    .goblin:hover{
+    background-image: url(../images/goblin1.png);
+    }
+    .elf:hover{
+    background-image: url(../images/elf2.png);
+    }
+    .gnom:hover{
+        background-image: url(../images/gnom1.png);
+        }
+    
+    .chelovek:active, 
+    .chelovek:focus {
+        outline: none
+    }
+    
+    .goblin:active, 
+    .goblin:focus {
+        outline: none
+    }
+    .elf:active:active, 
+    .elf:focus {
+        outline: none
+    }
+    .gnom:active:active, 
+    .gnom:focus {
+        outline: none
+    }

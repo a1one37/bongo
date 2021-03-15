@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap');
+body{
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(../images/bg.jpg);
+    background-size: 1709px 1000px;
+    width: 1000px;
+}
+img{
+    height: 935px;
+    width: 729px;
+    position: relative;
+}
+.container{
+    width: 90%;
+    position: relative;
+    font-weight: 700;
+    font-size: 150%;
+    font-family: 'Bellota';
+    
+    
+}
+.text{
+    position: absolute;
+    top: 20%;
+    right: 26%;
+    width: 450px;
+}
+.spisok_iz_knopok{
+    position: absolute;
+    margin-top: -100%;
+    margin-left: 100%;
+    list-style: none;
+}
+.btn_vilizti{
+    background: url(../images/yama.png);
+    position: relative;
+    height: 130px;
+    width: 300px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    border: none;
+    
+}
+.btn_osmotretsya{
+    background: url(../images/look1.png);
+    position: relative;
+    height: 130px;
+    width: 300px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    border: none;
+}
+
+.btn_vilizti:hover{
+    background-image: url(../images/yama_hover.png);
+}
+.btn_osmotretsya:hover{
+    background-image: url(../images/look2.png);
+}
+
+
+.btn_vilizti:active, 
+.btn_vilizti:focus {
+    outline: none
+}
+.btn_osmotretsya:active, 
+.btn_osmotretsya:focus {
+    outline: none
+}

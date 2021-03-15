@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap');
+body{
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(../images/bg.jpg);
+    background-size: 1709px 1000px;
+    width: 1000px;
+}
+img{
+    height: 935px;
+    width: 729px;
+    position: relative;
+}
+.container{
+    width: 90%;
+    position: relative;
+    font-weight: 700;
+    font-size: 150%;
+    font-family: 'Bellota';
+    
+    
+}
+.text{
+    position: absolute;
+    top: 20%;
+    right: 26%;
+    width: 450px;
+}
+
+.next{
+    position: absolute;
+    border: none;
+    background: url(../images/btn_next.png);
+    height: 130px;
+    width: 300px;
+    top: 63%;
+    left: 104%
+
+}
+.next:hover{
+    background: url(../images/btn_next_hover.png);
+}
+.spisok_iz_knopok{
+    position: absolute;
+    margin-top: -100%;
+    margin-left: 100%;
+    list-style: none;
+}
+
+.no_money{
+    background: url(../images/money1.png);
+    position: relative;
+    height: 130px;
+    width: 300px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    border: none;
+}
+.no_money:hover{
+    background: url(../images/money2.png);
+}
+.pokupay{
+    background: url(../images/buy1.png);
+    position: relative;
+    height: 130px;
+    width: 300px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    border: none;
+    
+    
+}
+.pokupay:hover{
+    background: url(../images/buy2.png);
+}
+.pokupay:active, 
+    .pokupay:focus {
+        outline: none;
+    }
+    .no_money:active, 
+    .no_money:focus {
+        outline: none;
+    }

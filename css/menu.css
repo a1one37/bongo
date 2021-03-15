@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap');
+.button_start_of_game{
+    background: url(../images/button_play.png);
+    height: 130px;
+    width: 300px;
+    margin-top: 30px;
+    border: none;
+
+    
+
+    
+
+}
+.button_start_of_game:hover{
+background: url(../images/button_play_hover.png);
+}
+body{
+    text-align: center;
+    margin: 0 auto;
+    
+    width: 1000px;
+    height: auto;
+    background: url(../images/image_start_of_game.jpg);
+    background-size: 1710px 830px;
+    
+    
+}
+.button_rules{
+    background: url(../images/button_rules.png);
+    
+    height: 130px;
+    width: 300px;
+    margin-top: 30px;
+    border: none;
+}
+.button_rules:hover{
+    background: url(../images/button_rules_hover.png);
+}
+.button_developers{
+    background: url(../images/button_developers.png);
+    height: 130px;
+    width: 300px;
+    margin-top: 30px;
+    border: none;
+}
+.button_developers:hover{
+background: url(../images/button_developers_hover.png);
+}
+
+button, 
+.button_start_of_game:active, 
+.button_start_of_game:focus {
+    outline: none;
+}
+.button_rules, 
+.button_rules:active, 
+.button_rules:focus {
+    outline: none;
+}
+.button_developers, 
+.button_developers:active, 
+.button_developers:focus {
+    outline: none;
+}
